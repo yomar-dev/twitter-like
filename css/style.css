@@ -13,7 +13,10 @@ body{
 	height: 100px;
 	animation-name: like;
 	animation-duration: 1s;
-	animation-timing-function: steps(29);
+	animation-timing-function: steps(28);
+	/*background-position: -2800px 0;*/
+	/*background-position: right;*/
+	animation-fill-mode: forwards;
 }
 
 @keyframes like {
@@ -21,6 +24,7 @@ body{
 		background-position: 0 0;
 	}
 	100% {
-		background-position: -2900px 0;
+		/*background-position: -2800px 0;*/
+		background-position: right;
 	}
 }
