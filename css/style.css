@@ -7,20 +7,20 @@ body{
 }
 
 .like{
+	background-image: url('../images/corazon.png');
 	cursor: pointer;
 	width: 100px;
 	height: 100px;
-	background: red;
 	animation-name: like;
 	animation-duration: 1s;
-	animation-timing-function: steps(5);
+	animation-timing-function: steps(29);
 }
 
 @keyframes like {
 	0% {
-		transform: translateX(0px)
+		background-position: 0 0;
 	}
 	100% {
-		transform: translateX(500px)
+		background-position: -2900px 0;
 	}
 }
