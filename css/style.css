@@ -11,4 +11,16 @@ body{
 	width: 100px;
 	height: 100px;
 	background: red;
+	animation-name: like;
+	animation-duration: 1s;
+	animation-timing-function: steps(5);
+}
+
+@keyframes like {
+	0% {
+		transform: translateX(0px)
+	}
+	100% {
+		transform: translateX(500px)
+	}
 }
